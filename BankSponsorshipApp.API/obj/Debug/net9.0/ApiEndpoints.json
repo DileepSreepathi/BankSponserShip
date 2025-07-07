@@ -1,0 +1,106 @@
+[
+  {
+    "ContainingType": "BankSponsorshipApp.API.Controllers.SponsorshipController",
+    "Method": "GetCommunityProjects",
+    "RelativePath": "api/Sponsorship/community-projects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BankSponsorshipApp.Models.CommunityProject, BankSponsorshipApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankSponsorshipApp.API.Controllers.SponsorshipController",
+    "Method": "GetPayments",
+    "RelativePath": "api/Sponsorship/payments/{sponsorshipPlanId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sponsorshipPlanId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BankSponsorshipApp.Models.Payment, BankSponsorshipApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "BankSponsorshipApp.API.Controllers.SponsorshipController",
+    "Method": "ProcessPayment",
+    "RelativePath": "api/Sponsorship/process-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payment",
+        "Type": "BankSponsorshipApp.Models.Payment",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankSponsorshipApp.API.Controllers.SponsorshipController",
+    "Method": "CreateSponsorshipPlan",
+    "RelativePath": "api/Sponsorship/sponsorship-plan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plan",
+        "Type": "BankSponsorshipApp.Models.SponsorshipPlan",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BankSponsorshipApp.API.Controllers.SponsorshipController",
+    "Method": "GetSponsorshipPlans",
+    "RelativePath": "api/Sponsorship/sponsorship-plans/{customerId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[BankSponsorshipApp.Models.SponsorshipPlan, BankSponsorshipApp.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

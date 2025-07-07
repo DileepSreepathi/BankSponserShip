@@ -1,0 +1,199 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Core/BankSponsorshipApp.Core.csproj": {}
+  },
+  "projects": {
+    "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Abstractions/BankSponsorshipApp.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Abstractions/BankSponsorshipApp.Abstractions.csproj",
+        "projectName": "BankSponsorshipApp.Abstractions",
+        "projectPath": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Abstractions/BankSponsorshipApp.Abstractions.csproj",
+        "packagesPath": "/Users/dileep/.nuget/packages/",
+        "outputPath": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dileep/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Models/BankSponsorshipApp.Models.csproj": {
+                "projectPath": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Models/BankSponsorshipApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Core/BankSponsorshipApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Core/BankSponsorshipApp.Core.csproj",
+        "projectName": "BankSponsorshipApp.Core",
+        "projectPath": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Core/BankSponsorshipApp.Core.csproj",
+        "packagesPath": "/Users/dileep/.nuget/packages/",
+        "outputPath": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dileep/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Abstractions/BankSponsorshipApp.Abstractions.csproj": {
+                "projectPath": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Abstractions/BankSponsorshipApp.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Models/BankSponsorshipApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Models/BankSponsorshipApp.Models.csproj",
+        "projectName": "BankSponsorshipApp.Models",
+        "projectPath": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Models/BankSponsorshipApp.Models.csproj",
+        "packagesPath": "/Users/dileep/.nuget/packages/",
+        "outputPath": "/Users/dileep/Dotnet-AI/BankSponserShip/BankSponsorshipApp.Models/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dileep/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

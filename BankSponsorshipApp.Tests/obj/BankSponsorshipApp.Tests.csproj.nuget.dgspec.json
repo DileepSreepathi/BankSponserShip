@@ -1,0 +1,385 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Tests\\BankSponsorshipApp.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\BankSponsorshipApp.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\BankSponsorshipApp.Abstractions.csproj",
+        "projectName": "BankSponsorshipApp.Abstractions",
+        "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\BankSponsorshipApp.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\v-dsreepathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-dsreepathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\BankSponsorshipApp.Models.csproj": {
+                "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\BankSponsorshipApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Core\\BankSponsorshipApp.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Core\\BankSponsorshipApp.Core.csproj",
+        "projectName": "BankSponsorshipApp.Core",
+        "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Core\\BankSponsorshipApp.Core.csproj",
+        "packagesPath": "C:\\Users\\v-dsreepathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-dsreepathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\BankSponsorshipApp.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\BankSponsorshipApp.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Data\\BankSponsorshipApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Data\\BankSponsorshipApp.Data.csproj",
+        "projectName": "BankSponsorshipApp.Data",
+        "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Data\\BankSponsorshipApp.Data.csproj",
+        "packagesPath": "C:\\Users\\v-dsreepathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-dsreepathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\BankSponsorshipApp.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\BankSponsorshipApp.Abstractions.csproj"
+              },
+              "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\BankSponsorshipApp.Models.csproj": {
+                "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\BankSponsorshipApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\BankSponsorshipApp.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\BankSponsorshipApp.Models.csproj",
+        "projectName": "BankSponsorshipApp.Models",
+        "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\BankSponsorshipApp.Models.csproj",
+        "packagesPath": "C:\\Users\\v-dsreepathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-dsreepathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Tests\\BankSponsorshipApp.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Tests\\BankSponsorshipApp.Tests.csproj",
+        "projectName": "BankSponsorshipApp.Tests",
+        "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Tests\\BankSponsorshipApp.Tests.csproj",
+        "packagesPath": "C:\\Users\\v-dsreepathi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\v-dsreepathi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\BankSponsorshipApp.Abstractions.csproj": {
+                "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Abstractions\\BankSponsorshipApp.Abstractions.csproj"
+              },
+              "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Core\\BankSponsorshipApp.Core.csproj": {
+                "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Core\\BankSponsorshipApp.Core.csproj"
+              },
+              "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Data\\BankSponsorshipApp.Data.csproj": {
+                "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Data\\BankSponsorshipApp.Data.csproj"
+              },
+              "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\BankSponsorshipApp.Models.csproj": {
+                "projectPath": "C:\\Users\\v-dsreepathi\\Work\\.netproj\\BankSponsorshipApp.Models\\BankSponsorshipApp.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.12.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

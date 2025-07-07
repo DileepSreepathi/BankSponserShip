@@ -1,0 +1,5 @@
+@BankSponsorshipApp.API_HostAddress = http://localhost:5275
+
+Accept: application/json
+
+###

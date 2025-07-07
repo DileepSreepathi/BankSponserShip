@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "BankSponsorshipApp.Abstractions/1.0.0": {
+        "dependencies": {
+          "BankSponsorshipApp.Models": "1.0.0"
+        },
+        "runtime": {
+          "BankSponsorshipApp.Abstractions.dll": {}
+        }
+      },
+      "BankSponsorshipApp.Models/1.0.0": {
+        "runtime": {
+          "BankSponsorshipApp.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankSponsorshipApp.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BankSponsorshipApp.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
